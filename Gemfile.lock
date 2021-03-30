@@ -124,6 +124,8 @@ GEM
     jekyll-github-metadata (2.13.0)
       jekyll (>= 3.4, < 5.0)
       octokit (~> 4.0, != 4.4.0)
+    jekyll-include-cache (0.2.1)
+      jekyll (>= 3.7, < 5.0)
     jekyll-mentions (1.6.0)
       html-pipeline (~> 2.3)
       jekyll (>= 3.7, < 5.0)
@@ -160,6 +162,8 @@ GEM
     jekyll-theme-hacker (0.1.2)
       jekyll (> 3.5, < 5.0)
       jekyll-seo-tag (~> 2.0)
+    jekyll-theme-hydejack (8.5.2)
+      jekyll (~> 3.7)
     jekyll-theme-hydeout (4.2.0)
       jekyll (>= 3.6, < 5.0)
       jekyll-feed (~> 0.6)
@@ -264,6 +268,9 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll-feed (~> 0.12)
+  jekyll-include-cache
+  jekyll-paginate
+  jekyll-theme-hydejack
   jekyll-theme-hydeout (~> 4.1)
   tzinfo (~> 1.2)
   tzinfo-data
