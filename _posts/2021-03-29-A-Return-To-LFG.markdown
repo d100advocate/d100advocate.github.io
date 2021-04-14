@@ -2,8 +2,8 @@
 layout: post
 title: A Return to Low Fantasy Gaming
 date: 2021-03-29
-categories: [review, LFG]
-tags: [review, LFG]
+categories: [review]
+tags: [Low Fantasy Gaming]
 ---
 
 {% include youtube.html id="9pEXSlm1ByE" %}
