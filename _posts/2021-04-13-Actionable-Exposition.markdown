@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Dice Tumbler - Actionable Exposition
+title: Actionable Exposition
 date: 2021-04-13
 categories: [podcast]
 tags: [discussion, advice]

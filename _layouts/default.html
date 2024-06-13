@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="https://unpkg.com/normalize.css">
+    <link rel="stylesheet" href="https://unpkg.com/magick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="{{ '/css/styles.css' | relative_url }}" />
+  </head>
+  <body>
+    <div class="header">
+        <h1>{{ site.title }}</h1>
+    </div>
+    <div class="topnav">
+        <a href="/">Home</a>
+        <a href="/blog/">Blog</a>
+        <a href="/About/">About</a>
+        <a href="https://forms.gle/cCfycVqqSC1xmevF8">Contact</a>
+    </div>
+    <div class="topnav">
+        <a href="/feed.xml"><i class="fa-solid fa-rss"></i></a>
+        <a href="https://btaylor.itch.io"><i class="fa-brands fa-itch-io"></i></a>
+        <a href="https://www.youtube.com/channel/UC6-MtaQDHH0s-g6z0_JvYcw"><i class="fa-brands fa-youtube"></i></a>
+        <a href="http://twitter.com/B_Taylor_"><i class="fa-brands fa-twitter"></i></a>
+        <a href="https://forms.gle/cCfycVqqSC1xmevF8"><i class="fa-regular fa-envelope"></i></a>
+    </div>
+    <div class="content">
+        {{ content }}
+    </div>
+    <div class="footer">
+
+    </div>
+  </body>
+</html>
