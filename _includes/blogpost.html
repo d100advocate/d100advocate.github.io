@@ -3,7 +3,7 @@
     Date: {{include.post.date | date_to_string}},
     Tags: 
     {% for tag in include.post.tags %}
-        <a href="/tags">{{ tag }}</a>
+        <a href="/tags">#{{ tag }}</a>
     {% endfor %}
 </span>
 <div class="post">
