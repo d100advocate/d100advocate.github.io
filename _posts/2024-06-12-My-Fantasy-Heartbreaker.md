@@ -1,6 +1,7 @@
 ---
 layout: post
 title: My Fantasy Heartbreaker
+tags: OSR Fantasy-Heartbreaker
 ---
 
 I think it's a universal truth that every OSR enthusiast eventually writes their own game.  Sometimes this takes the form of a title sold at a retail store, but more often it takes the form of a large packet of homebrew rules.  These games are often highly derivative, taking ones favorite edition of D&D and simply adding the more intriguing or engaging rules we find in our massive pile of RPG's we'll never actually get to the table.
